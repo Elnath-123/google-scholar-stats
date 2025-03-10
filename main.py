@@ -3,7 +3,7 @@ import jsonpickle
 import json
 from datetime import datetime
 
-scholar_ids = ['RwMPs-8AAAAJ&hl']
+scholar_ids = ['tqSCPIQAAAAJ&hl']
 
 for id in scholar_ids:
     author = scholarly.search_author_id(id)
